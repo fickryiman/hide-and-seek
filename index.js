@@ -45,7 +45,7 @@ const data = {
 // using for... in
 function iterateForIn(obj) {
   for (const property in obj) {
-    // console.log(`${property}: ${(obj[property])}`);
+    console.log(`${property}: ${(obj[property])}`);
     // the result is:  0: [object Object]
     //                 1: [object Object]
     //                 2: [object Object]
@@ -62,6 +62,6 @@ function iterateForIn(obj) {
 iterateForIn(data.Employees);
 
 // manual verifications
-console.log(data.Employees[0]);
-console.log(data.Employees[1]);
-console.log(data.Employees[2]);
+// console.log(data.Employees[0]);
+// console.log(data.Employees[1]);
+// console.log(data.Employees[2]);
