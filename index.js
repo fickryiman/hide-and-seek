@@ -50,10 +50,9 @@ function iterateForIn(obj) {
     //                 1: [object Object]
     //                 2: [object Object]
 
-    // console.log(`${property}: ${JSON.stringify(obj[property])}`);
-    // the result is : 0: {"userId":"krish","jobTitle":"Developer","firstName":"Krish","lastName":"Lee","employeeCode":"E1","region":"CA","phoneNumbers":[{"type":"home","number":"7183627627"}],"emailAddress":"krish.lee@gmail.com"}
-    //                 1: {"userId":"devid","jobTitle":"Developer","firstName":"Devid","lastName":"Rome","employeeCode":"E2","region":"CA","phoneNumbers":[{"type":"home","number":"7283627627"}],"emailAddress":"devid.rome@gmail.com"}
-    //                 2: {"userId":"tin","jobTitle":"Program Directory","firstName":"tin","lastName":"jonson","employeeCode":"E3","region":"CA","phoneNumbers":[{"type":"home","number":"7383627627"}],"emailAddress":"tin.jonson@gmail.com"}
+    // expected result is :  0: {"userId":"krish","jobTitle":"Developer","firstName":"Krish","lastName":"Lee","employeeCode":"E1","region":"CA","phoneNumbers":[{"type":"home","number":"7183627627"}],"emailAddress":"krish.lee@gmail.com"}
+    //                       1: {"userId":"devid","jobTitle":"Developer","firstName":"Devid","lastName":"Rome","employeeCode":"E2","region":"CA","phoneNumbers":[{"type":"home","number":"7283627627"}],"emailAddress":"devid.rome@gmail.com"}
+    //                       2: {"userId":"tin","jobTitle":"Program Directory","firstName":"tin","lastName":"jonson","employeeCode":"E3","region":"CA","phoneNumbers":[{"type":"home","number":"7383627627"}],"emailAddress":"tin.jonson@gmail.com"}
     
   }
 }
